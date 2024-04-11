@@ -6,10 +6,16 @@
     <title>Document</title>
 </header>
 <style>
+    *{
+        margin: 0;
+        overflow: hidden;
+    }
+
+   
     .navbar {
         width: 100%;
         height: 100px;
-        background-color: blueviolet;
+        background-color: yellow;
         overflow: auto;
 
     }
@@ -22,36 +28,66 @@
     }
 
     .logo{
-        color: aliceblue;
+        color: navy;
         float: inline-end;
         
 
     }
+
+    
+    .sidebar {
+        
+        height: 100%;
+        position: fixed;
+        background-color: gray;
+        width: 250px;
+        
+        
+    }
     
 
-    .dashboard{
-        grid-column-end: 9;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 75rem;
-        width: 60%;
-    }
-    .sidebar {
-        height: 100%;
-        width: 15%;
-        position: fixed;
-        float: left;
-        padding: 10px;
-        background-color: aquamarine;
+        .dashboard{
+        position: fixed;  
         
+        
+        background-color:wheat;
+        width: 100%;
+        height: 100%;
+        margin-left: 250px;
+       
+
         
     }
 
-    .dashboard{
-        width: 60%;
-        justify-content: center;
-        
+    .dashboard h1{
+      
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 500px;
+      
+
     }
+
+    .dashboard img {
+        margin-left: 400px;
+    }
+
+    .dashboard h2 {
+        margin-left: 550px;
+        margin-top: 20px;
+    }
+
+   .dashboard p {
+    margin-left: 60px;
+    margin-top: 20px;
+    text-align: center;
+    width: 1100px;
+    font-size: larger;
+        
+    } 
+   
+
+    
 </style>
 <body>
     <div class="navbar">
@@ -60,16 +96,49 @@
         
         
     </div>
-    <div  class="sidebar" style="color:blueviolet">
+    
+    <div  class="sidebar" >
         <p>sidebar</p>
     </div>
 
     <div class="dashboard">
-        <h1>Dashboaard</h1>
-        <img src="css/image.jpg" width="460" height="345"/>
-        <p>Content</p>
+        <h1>Dashboard</h1>
+        <img src="css/image.jpg" width="350" height="245"/>
+        <h2>Flowers</h2>
+        <p>There are many things in nature for
+             which we should be thankful. 
+             One of them definitely has to be flowers. 
+             There are many types of flowers which we see in our environment.
+              The beautiful fragrances and flowers enhance the beauty of our
+               planet earth. Through flowers essay, we will look at what these 
+            beautiful things do and how much joy they bring.
+            Flowers carry a lot of importance in our lives.
+             In India, no worship of God is complete without some kind of flower
+             . Devotees make a garland of flowers to dedicate it to God. 
+             In addition, we also use flowers for special occasions like weddings.
 
-    </div>
+            The bride and groom wear garlands of flowers 
+            to signify their marriage. In addition, 
+            flowers smell so good that we use it in different places 
+            by planting them in our garden. This way,
+             the beauty of our place enhances.
+             Flowers carry importance in each nook and corner of the world. 
+             They also come in use for making medicines. Similarly,
+              we also make difference in fragrance perfumes from the flowers. Further, 
+              the butterflies, birds and bees take the flowers as food.
+
+             In many weddings, the bride carries a bouquet 
+             of flowers when she walks down the aisle. 
+             Thus, it is very symbolic in that sense.
+              On special occasions of valentines and anniversary, 
+              we gift our partners’ beautiful flowers as a symbol of our love.
+             
+             Similarly, we send flowers for someone who is sick to brighten their day.
+              We also send flowers as a token of condolence during funerals. Thus, 
+              we see they have so many uses in so many areas.</p>
+
+    
+</div>
 
     
 </body>
